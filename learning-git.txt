@@ -8,3 +8,6 @@ git init
 7 回退版本
 git reset --hard HEAD^ /HEAD^^...HEAD~100
 git reset --hard commit_id
+8 撤销修改
+丢弃工作区的修改 git checkout -- readme.txt  或者 git restore readme.txt
+把暂存区的修改撤销掉 git reset HEAD <file>
