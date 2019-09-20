@@ -1,0 +1,10 @@
+﻿1 初始化
+git init
+2 添加 git add filename
+3 提交 git commit -m "XXXX"
+4 查看状态 git status
+5 查看日志 git log
+6 查看之前操作 git reflog
+7 回退版本
+git reset --hard HEAD^ /HEAD^^...HEAD~100
+git reset --hard commit_id
